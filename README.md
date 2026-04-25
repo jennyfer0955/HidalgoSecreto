@@ -121,31 +121,67 @@ http://localhost/Hidalgo/public/index.php
 **## Capturas del sistema**
 
 ### Página principal
+*WEB*
 ![Home](screenshots/home.png)
+*MOVIL*
+![Home](screenshots/homeMovil.png)
 
 ### Destinos
+*WEB*
 ![Destinos](screenshots/destinos.png)
+*MOVIL*
+![Destinos](screenshots/destinosMovil.png)
 
 ### Detalle
+*WEB*
 ![Detalle](screenshots/detalle.png)
+*MOVIL*
+![Detalle](screenshots/detalleMovil.png)
 
 ### Recomendaciones
-![Detalle](screenshots/recomendaciones.png)
+*WEB*
+![Recomendaciones](screenshots/recomendaciones.png)
+*MOVIL*
+![Recomendaciones](screenshots/recomendacionesMovil.png)
 
 ### Galeria
-![Detalle](screenshots/galeria.png)
+*WEB*
+![Galeria](screenshots/galeria.png)
+*MOVIL*
+![Galeria](screenshots/galeriaMovil.png)
 
 ### Experiencias
-![Detalle](screenshots/experiencias.png)
+*WEB*
+![Experiencias](screenshots/experiencias.png)
+*MOVIL*
+![Experiencias](screenshots/experienciasMovil.png)
 
 ### Actividades
-![Detalle](screenshots/actividades.png)
+*WEB*
+![Actividades](screenshots/actividades.png)
+*MOVIL*
+![Actividades](screenshots/actividadesMovil.png)
 
 ### Hospedaje
-![Detalle](screenshots/hospedaje.png)
+*WEB*
+![Hospedaje](screenshots/hospedaje.png)
+*MOVIL*
+![Hospedaje](screenshots/hospedajeMovil.png)
 
 ### Leyendas
-![Detalle](screenshots/leyendas.png)
+*WEB*
+![Leyendas](screenshots/leyendas.png)
+*MOVIL*
+![Leyendas](screenshots/leyendasMovil.png)
+
+### Leyendas Detalle
+*WEB*
+![LeyendasDetalle](screenshots/leyendasDetalle.png)
+*MOVIL*
+![LeyendasDetalle](screenshots/leyendasDetalleMovil.png)
 
 ### Contacto
-![Detalle](screenshots/contacto.png)
+*WEB*
+![Contacto](screenshots/contacto.png)
+*MOVIL*
+![Contacto](screenshots/contactoMovil.png)
