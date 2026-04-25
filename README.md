@@ -130,12 +130,14 @@ http://localhost/Hidalgo/public/index.php
 *WEB*
 ![Destinos](screenshots/destinos.png)
 *MOVIL*
+
 ![Destinos](screenshots/destinosMovil.png)
 
 ### Detalle
 *WEB*
 ![Detalle](screenshots/detalle.png)
 *MOVIL*
+
 ![Detalle](screenshots/detalleMovil.png)
 
 ### Recomendaciones
@@ -148,12 +150,14 @@ http://localhost/Hidalgo/public/index.php
 *WEB*
 ![Galeria](screenshots/galeria.png)
 *MOVIL*
+
 ![Galeria](screenshots/galeriaMovil.png)
 
 ### Experiencias
 *WEB*
 ![Experiencias](screenshots/experiencias.png)
 *MOVIL*
+
 ![Experiencias](screenshots/experienciasMovil.png)
 
 ### Actividades
@@ -166,22 +170,26 @@ http://localhost/Hidalgo/public/index.php
 *WEB*
 ![Hospedaje](screenshots/hospedaje.png)
 *MOVIL*
+
 ![Hospedaje](screenshots/hospedajeMovil.png)
 
 ### Leyendas
 *WEB*
 ![Leyendas](screenshots/leyendas.png)
 *MOVIL*
+
 ![Leyendas](screenshots/leyendasMovil.png)
 
 ### Leyendas Detalle
 *WEB*
 ![LeyendasDetalle](screenshots/leyendasDetalle.png)
 *MOVIL*
+
 ![LeyendasDetalle](screenshots/leyendasDetalleMovil.png)
 
 ### Contacto
 *WEB*
 ![Contacto](screenshots/contacto.png)
 *MOVIL*
+
 ![Contacto](screenshots/contactoMovil.png)
