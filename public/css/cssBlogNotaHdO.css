@@ -1,0 +1,99 @@
+/* ========================= */
+/* CONTENEDOR GENERAL */
+/* ========================= */
+
+.BlogNota{
+  padding: 20px;
+}
+
+.BlogTitulo{
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.BlogImg{
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.BlogTexto{
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.BlogSubtitulo{
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.Lista{
+  padding-left: 20px;
+}
+
+.Lista li{
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.BlogBotones{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn{
+  background: #f3a6c0;
+  padding: 15px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+
+/* ========================= */
+/* 💻 DESKTOP */
+/* ========================= */
+
+@media (min-width: 768px){
+
+  .BlogNota{
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .BlogTitulo{
+    font-size: 32px;
+  }
+
+  .galariaBlog{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center; 
+    gap: 10px;
+  }
+  /* GALERÍA */
+  .BlogImg{
+    width: 80%;
+  }
+
+  /* TIPOGRAFÍA */
+  .BlogTexto{
+    font-size: 16px;
+  }
+
+  .BlogLista li{
+    font-size: 16px;
+  }
+
+  .BlogListas{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+
+}
+

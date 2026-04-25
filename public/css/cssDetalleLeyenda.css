@@ -1,0 +1,83 @@
+/* ========================= */
+/* CONTENEDOR GENERAL */
+/* ========================= */
+
+.leyenda{
+  padding: 20px;
+}
+
+/* ========================= */
+/* TÍTULO */
+/* ========================= */
+
+.leyendaTitulo{
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+/* ========================= */
+/* CONTENIDO */
+/* ========================= */
+
+.leyendaContainer{
+  display: grid;
+  gap: 20px;
+}
+
+/* ========================= */
+/* TEXTO */
+/* ========================= */
+
+.leyendaTexto p{
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+/* ========================= */
+/* GALERÍA */
+/* ========================= */
+
+.leyendaGaleria{
+  display: grid;
+  gap: 15px;
+}
+
+.leyendaGaleria img{
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* ========================= */
+/* 💻 DESKTOP */
+/* ========================= */
+
+@media (min-width: 768px){
+
+  .leyenda{
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .leyendaTitulo{
+    font-size: 32px;
+  }
+
+  .leyendaContainer{
+    grid-template-columns: 2fr 1fr; /* 🔥 texto + imágenes */
+    align-items: start;
+  }
+
+  .leyendaTexto p{
+    font-size: 16px;
+  }
+
+  .leyendaGaleria{
+    position: sticky; /* opcional pro */
+    top: 20px;
+  }
+
+}

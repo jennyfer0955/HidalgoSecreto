@@ -1,0 +1,102 @@
+/* ========================= */
+/* MAIN (para centrado vertical real) */
+/* ========================= */
+
+.mainExperiencias{
+  min-height: calc(100vh - 80px - 100px); /* ajusta según tu header/footer */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ========================= */
+/* CONTENEDOR */
+/* ========================= */
+
+.experiencias-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+  padding: 20px;
+
+  justify-items: center; /* eje X */
+  align-content: center; /* eje Y */
+}
+
+/* ========================= */
+/* TARJETAS */
+/* ========================= */
+
+.experiencia-card{
+  position: relative;
+  display: block;
+  padding: 15px 20px;
+  border-radius: 15px;
+  border: 3px solid #000;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+
+  text-decoration: none;
+  color: #000;
+
+  max-width: 280px;
+  width: 100%;
+
+  transition: transform 0.3s;
+}
+
+.experiencia-card:hover{
+  transform: scale(1.05);
+}
+
+/* ========================= */
+/* COLORES */
+/* ========================= */
+
+.rosa{ background: #E89AB3; }
+.verde{ background: #A8CFAF; }
+.amarilla{ background: #EEDB84; }
+.morada{ background: #B49AC6; }
+
+/* ========================= */
+/* COLITA (SPEECH BUBBLE) */
+/* ========================= */
+
+.experiencia-card::after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  left: 15px;
+  bottom: -25px;
+}
+
+.experiencia-card.rosa::after{ border-top-color: #E89AB3; }
+.experiencia-card.verde::after{ border-top-color: #A8CFAF; }
+.experiencia-card.amarilla::after{ border-top-color: #EEDB84; }
+.experiencia-card.morada::after{ border-top-color: #B49AC6; }
+
+/* ========================= */
+/* DESKTOP */
+/* ========================= */
+
+@media (min-width: 768px){
+
+  .experiencias-container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+
+    justify-items: center;
+    align-content: center;
+  }
+
+  /* cambiar lado de la colita */
+  .experiencia-card:nth-child(even)::after{
+    right: 15px;
+    left: auto;
+  }
+
+}
+

@@ -1,0 +1,117 @@
+/* ========================= */
+/* CONTENEDOR */
+/* ========================= */
+
+.detalleContainer{
+  padding: 20px;
+}
+
+/* ========================= */
+/* TÍTULO */
+/* ========================= */
+
+.detalleTitulo{
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* ========================= */
+/* CONTENIDO */
+/* ========================= */
+
+.detalleContenido{
+  display: grid;
+  gap: 20px;
+}
+
+/* ========================= */
+/* TEXTO */
+/* ========================= */
+
+.detalleTexto p{
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.detalleTexto h3{
+  margin: 15px 0 10px;
+}
+
+.detalleTexto ul{
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.detalleTexto li{
+  margin-bottom: 5px;
+}
+
+/* ========================= */
+/* BOTONES */
+/* ========================= */
+
+.detalleBotones{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btnBlogsF{
+  margin-top: 15px;
+  background: #f3a6c0;
+  padding: 8px 23px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  text-align: center;
+}
+
+.btn{
+  background: #f3a6c0;
+  padding: 8px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* ========================= */
+/* LATERAL */
+/* ========================= */
+
+.detalleLateral{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mapa{
+  width: 100%;
+  height: 150px;
+  background: #ccc;
+  border-radius: 8px;
+}
+
+/* ========================= */
+/* 💻 DESKTOP */
+/* ========================= */
+
+@media (min-width: 768px){
+
+  .detalleContenido{
+    grid-template-columns: 2fr 1fr;
+    align-items: start;
+  }
+
+  .detalleTitulo{
+    font-size: 32px;
+  }
+
+  .mapa{
+    height: 200px;
+  }
+
+}

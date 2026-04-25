@@ -1,0 +1,57 @@
+/* ========================= */
+/* MOBILE FIRST (BASE) */
+/* ========================= */
+
+.MainGaleria{
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 20px;
+  padding: 20px;
+}
+
+/* ========================= */
+/* CARD */
+/* ========================= */
+
+.cardGaleria {
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+/* Imagen */
+.card-imgGaleria {
+    width: 100%;
+    height: 260px;
+}
+
+/* Contenido */
+.card-contentGaleria {
+    padding: 15px;
+}
+
+/* Título */
+.card-titleGaleria {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Descripción */
+.card-descriptionGaleria {
+    font-size: 14px;
+    color: #555;
+}
+
+/* ========================= */
+/* DESKTOP */
+/* ========================= */
+
+@media (min-width: 768px){
+  .MainGaleria{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+

@@ -1,0 +1,127 @@
+/* ========================= */
+/* MOBILE FIRST */
+/* ========================= */
+
+.contacto-container{
+  display: grid;
+  grid-template-columns: 1fr; /* 👈 una columna */
+  gap: 20px;
+  padding: 10px;
+}
+
+/* DESCRIPCIÓN */
+.descripcion{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* REDES SOCIALES */
+.redesSocialesContacto{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  gap: 10px;
+}
+
+.redesSocialesContacto img{
+  width: 60px; /* móvil */
+  transition: transform 0.3s;
+}
+
+.redesSocialesContacto img:hover{
+  transform: scale(1.1);
+}
+
+/* FORMULARIO */
+.formulario-contacto{
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 12px;
+}
+
+.formulario-contacto h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.campo{
+  display: flex;
+  flex-direction: column;
+}
+
+.campo label{
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.campo input,
+.campo textarea{
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.campo input:focus,
+.campo textarea:focus{
+  border-color: #FF8C42;
+}
+
+.btn-enviar{
+  padding: 12px;
+  border: none;
+  background: #FFA6C9;
+  color: #000000;
+  font-weight: bold;
+  border: 3px solid #000;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-enviar:hover{
+  background: #FF006E;
+}
+
+/* ========================= */
+/* DESKTOP */
+/* ========================= */
+
+@media (min-width: 768px){
+
+  .contacto-container{
+    display: grid; 
+    grid-template-columns: auto 600px;
+    gap: 20px;
+    align-items: start;
+  }
+
+  /* POSICIÓN */
+  .aside{
+    text-align: left;
+  }
+
+  /* REDES */
+  .redesSocialesContacto{
+    justify-content: center;
+  }
+
+  .redesSocialesContacto img{
+    width: 45px; /* desktop */
+  }
+
+  /* FORMULARIO */
+  .formulario-contacto{
+    max-width: 500px;
+  }
+
+}

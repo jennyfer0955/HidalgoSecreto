@@ -1,0 +1,13 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+  height: 100%;
+  margin: 0;
+}
+
+.layout{
+  display: grid;
+  grid-template-rows: auto 1fr auto; 
+  min-height: 100vh;
+}

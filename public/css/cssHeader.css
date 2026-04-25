@@ -1,0 +1,188 @@
+/* ========================= */
+/* HEADER */
+/* ========================= */
+.header{
+    background-color: #B9E9C8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    position: relative; /* importante para el menú móvil */
+}
+
+/* ========================= */
+/* LOGO */
+/* ========================= */
+.logo img{
+    height: 45px;
+    width: auto;
+    margin: 0 10px;
+}
+
+/* ========================= */
+/* BOTÓN HAMBURGUESA */
+/* ========================= */
+.menu-toggle{
+    display: block;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* ========================= */
+/* MENÚ MÓVIL */
+/* ========================= */
+.menu-mobile{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 95%;
+    background-color: #B9E9C8;
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    z-index: 1000;
+}
+
+/* Activar menú móvil */
+.menu-mobile.active{
+    display: flex;
+}
+
+/* ========================= */
+/* MENÚ DESKTOP */
+/* ========================= */
+.menu-desktop{
+    display: none;
+    align-items: center;
+    gap: 20px;
+}
+
+/* ========================= */
+/* LINKS GENERALES */
+/* ========================= */
+.menu-mobile a,
+.menu-desktop a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* ========================= */
+/* BOTONES */
+/* ========================= */
+.home{
+    background-color: #FFB580;
+    padding: 6px 30px;
+    border: 3px solid #000;
+    border-radius: 20px;
+}
+.home:active{
+    background-color: #FF6D00;
+    box-shadow: 0px 0px 20px #000;
+}
+
+.destinos{
+    background-color: #C7A4D6;
+    padding: 6px 30px;
+    border: 3px solid #000;
+    border-radius: 20px;
+}
+
+.destinos:active{
+    background-color: #6A1B9A;
+    box-shadow: 0px 0px 20px #000;
+}
+
+.galeria{
+    background-color: #FFE680;
+    padding: 6px 30px;
+    border: 3px solid #000;
+    border-radius: 20px;
+}
+
+.galeria:active{
+    background-color: #FFD400;
+    box-shadow: 0px 0px 20px #000;
+}
+
+.experiencias{
+    background-color: #FFA6C9;
+    padding: 6px 20px;
+    border: 3px solid #000;
+    border-radius: 20px;
+}
+
+.experiencias:active{
+    background-color: #FF006E;
+    box-shadow: 0px 0px 20px #000;
+}
+
+.contacto{
+    background-color: #99CCFF;
+    padding: 6px 30px;
+    border: 3px solid #000;
+    border-radius: 20px;
+}
+
+.contacto:active{
+    background-color: #005788;
+    box-shadow: 0px 0px 20px #000;
+}
+
+.mapaSitio{
+    background-color: #FFFFFF;
+    padding: 6px 10px;
+    width: 100%;
+    border: 3px solid #000;
+    border-radius: 20px;
+    width: auto;             
+    white-space: nowrap;
+}
+
+.mapaSitio:active{
+    background-color: #2E2E2E;
+    box-shadow: 0px 0px 20px #000;
+}
+
+/* ========================= */
+/* RESPONSIVE DESKTOP */
+/* ========================= */
+@media (min-width: 768px){
+
+    .header{
+        height: auto;
+    }
+
+    .logo img{
+        height: 60px;
+        margin: 0 10px;
+    }
+    /* Ocultar hamburguesa */
+    .menu-toggle{
+        display: none;
+    }
+
+    /* Ocultar menú móvil SIEMPRE */
+    .menu-mobile{
+        display: none;
+    }
+
+    /* Mostrar menú desktop */
+    .menu-desktop{
+        display: flex;
+        margin-right: auto;
+    }
+}

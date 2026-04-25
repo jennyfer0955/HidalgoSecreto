@@ -1,0 +1,111 @@
+/* ========================= */
+/* 📱 MOBILE FIRST */
+/* ========================= */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* OCULTAR desktop en móvil */
+.fraseLogo,
+.redesSociales{
+    display: none;
+}
+
+/* ========================= */
+/* MENU MOVIL ESTILO APP */
+/* ========================= */
+
+.footer-menu-mobile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: #A8D5BA;
+    position: relative;
+}
+
+/* BOTONES BASE */
+.footer-menu-mobile a{
+    width: 70px;
+    height: 70px;
+    background-color: #B799D1; /* morado */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    text-decoration: none;
+
+    position: relative;
+    top: 0;
+
+    transition: all 0.3s ease;
+}
+
+/* ICONOS */
+.footer-menu-mobile i{
+    font-size: 28px;
+    color: black;
+}
+
+/* BOTON ACTIVO (EL BLANCO ELEVADO) */
+.footer-menu-mobile a.active{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+
+    transform: translateY(-20px);
+    z-index: 10;
+}
+
+/* ICONO ACTIVO */
+.footer-menu-mobile a.active i{
+    font-size: 32px;
+}
+
+/* ========================= */
+/* DESKTOP */
+/* ========================= */
+
+@media (min-width: 768px){
+
+    .footer{
+        background-color: #B9E9C8;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .fraseLogo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .fraseLogo img{
+        height: 45px;
+    }
+
+    .redesSociales{
+        display: flex;
+        gap: 10px;
+    }
+
+    .redesSociales img{
+        height: 40px;
+    }
+
+    /* ocultar menu app */
+    .footer-menu-mobile{
+        display: none;
+    }
+}
+
+
+

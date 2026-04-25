@@ -1,0 +1,137 @@
+/* ========================= */
+/* MAIN */
+/* ========================= */
+
+.mainDestinos{
+  padding: 20px;
+}
+
+/* ========================= */
+/* GRID */
+/* ========================= */
+
+.recomendaciones-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* ========================= */
+/* CARD */
+/* ========================= */
+
+.recomendacion-card{
+  display: flex;
+  gap: 15px;
+  padding: 5px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0 0px 12px rgba(0,0,0,0.6);
+
+  align-items: center;
+  height: 100%;
+
+  transition: all 0.3s ease;
+}
+
+.recomendacion-card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+}
+
+/* ========================= */
+/* IMAGEN */
+/* ========================= */
+
+.recomendacion-img{
+  flex-shrink: 0;
+   margin:auto;
+}
+
+.recomendacion-img img{
+  width: 120px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* ========================= */
+/* CONTENIDO */
+/* ========================= */
+
+.recomendacion-content{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+   margin:auto;
+  width: 100%;
+}
+
+/* ========================= */
+/* TITULO */
+/* ========================= */
+
+.recomendacion-title{
+  text-decoration: none;
+  color: #000;
+}
+
+.recomendacion-title h3{
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+/* ========================= */
+/* BOTONES */
+/* ========================= */
+
+.recomendacion-actions{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* botón principal */
+.btn-ver{
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  flex: 1;
+  text-align: center;
+}
+
+/* botón secundario */
+.btn-secundario{
+  background: transparent;
+  border: 2px solid #000;
+  color: #000;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  flex: 1;
+  text-align: center;
+}
+
+/* ========================= */
+/* DESKTOP */
+/* ========================= */
+
+@media (min-width: 768px){
+
+  .recomendaciones-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .recomendacion-card{
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .recomendacion-img img{
+    width: 100%;
+    height: 180px;
+  }
+
+}
