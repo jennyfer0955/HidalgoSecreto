@@ -130,22 +130,22 @@ http://localhost/Hidalgo/public/index.php
 ![Detalle](screenshots/detalle.png)
 
 ### Recomendaciones
-![Detalle](screenshots/detalle.png)
+![Detalle](screenshots/recomendaciones.png)
 
 ### Galeria
-![Detalle](screenshots/detalle.png)
+![Detalle](screenshots/galeria.png)
 
 ### Experiencias
-![Detalle](screenshots/detalle.png)
+![Detalle](screenshots/experiencias.png)
 
 ### Actividades
-![Detalle](screenshots/detalle.png)
+![Detalle](screenshots/actividades.png)
 
 ### Hospedaje
-![Detalle](screenshots/detalle.png)
+![Detalle](screenshots/hospedaje.png)
 
 ### Leyendas
-![Detalle](screenshots/detalle.png)
+![Detalle](screenshots/leyendas.png)
 
 ### Contacto
-![Detalle](screenshots/detalle.png)
+![Detalle](screenshots/contacto.png)
