@@ -91,7 +91,6 @@
 .mapa{
   width: 100%;
   height: 150px;
-  background: #ccc;
   border-radius: 8px;
 }
 
@@ -110,8 +109,17 @@
     font-size: 32px;
   }
 
-  .mapa{
-    height: 200px;
+  .mapa {
+    max-width: 900px;
+    height: 450px;
+    margin: auto;
   }
+
+  .mapa iframe {
+    width: 100%;
+    height: 80%;
+    border: 0;
+  }
+
 
 }

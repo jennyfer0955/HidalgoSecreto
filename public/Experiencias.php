@@ -8,8 +8,6 @@
 
       <a href="Hospedaje.php" class="experiencia-card verde">¿Dónde Hospedarte?</a>
 
-      <a href="blog.php" class="experiencia-card amarilla">Blog</a>
-
       <a href="Leyendas.php" class="experiencia-card morada">Leyendas</a>
 
   </section>
