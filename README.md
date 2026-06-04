@@ -1,22 +1,36 @@
-**# HIDALGO SECRETO**
+# 🌄 HIDALGO SECRETO
 
-Sistema web turístico desarrollado en PHP, MySQL, HTML, CSS y JavaScript, enfocado en la difusión de pueblos mágicos del estado de Hidalgo mediante contenido dinámico, interactivo y estructurado desde base de datos.
+Sistema web turístico fullstack desarrollado con **PHP y MySQL**, que permite explorar pueblos mágicos del estado de Hidalgo mediante contenido dinámico, navegación interactiva y una arquitectura modular escalable.
 
-**## Funcionalidades**
-- Listado dinámico de destinos turísticos 
--	Detalle de cada pueblo mágico 
--	Recomendaciones por destino 
--	Actividades y lugares de hospedaje 
--	Leyendas asociadas a cada lugar 
--	Integración con Google Maps 
--	Navegación dinámica entre módulos 
--	Animaciones como tarjetas giratorias y carrusel automático 
--	Galería de eventos de los distintos pueblos mágicos 
--	Integración de formularios de contacto 
--	Sección de blog con contenido informativo 
--	Mapa del sitio para navegación general 
+Este proyecto simula una plataforma tipo **CMS turístico**, integrando múltiples módulos como blog, galería, recomendaciones y mapas.
 
-**## Estructura del proyecto**
+---
+
+## 🧠 Tipo de proyecto
+
+Proyecto académico enfocado en el desarrollo fullstack y la aplicación de buenas prácticas en la estructuración de aplicaciones web.
+
+---
+
+## 🚀 Funcionalidades
+
+* Listado dinámico de destinos turísticos
+* Visualización de detalles por pueblo mágico
+* Sistema de recomendaciones por destino
+* Sección de actividades y hospedaje
+* Módulo de leyendas asociadas a cada lugar
+* Integración con Google Maps
+* Navegación dinámica entre módulos
+* Animaciones (tarjetas giratorias y carrusel automático)
+* Galería de eventos
+* Formulario de contacto
+* Sección de blog informativo
+* Mapa del sitio para navegación global
+
+---
+
+## 🧱 Estructura del proyecto
+
 ```
 Hidalgo/
 │
@@ -46,57 +60,78 @@ Hidalgo/
 │   └── conexionBase.php
 ```
 
-**## Tecnologías utilizadas**
--	PHP (Backend) 
--	MySQL (Base de datos relacional) 
--	HTML5 
--	CSS3 
--	JavaScript 
--	XAMPP (Servidor local) 
+---
 
-**## Base de datos**
+## 🛠️ Tecnologías utilizadas
+
+* PHP (Backend)
+* MySQL (Base de datos relacional)
+* HTML5
+* CSS3
+* JavaScript
+* XAMPP (Servidor local)
+
+---
+
+## 🗄️ Base de datos
 
 El sistema utiliza una base de datos relacional que permite:
--	Relación entre destinos y recomendaciones 
--	Relación entre destinos y leyendas 
--	Gestión dinámica de contenido turístico 
 
-**## Instalación del proyecto**
+* Relación entre destinos y recomendaciones
+* Relación entre destinos y leyendas
+* Gestión dinámica del contenido turístico
 
-**### 1. Instalar XAMPP**
+---
 
-Descargar e instalar desde:
+## ⚙️ Instalación del proyecto
+
+### 1. Instalar XAMPP
+
+Descargar desde:
 https://www.apachefriends.org/
 
-Activar:
--	Apache 
--	MySQL 
+Activar los servicios:
 
-**### 2. Colocar el proyecto**
+* Apache
+* MySQL
+
+---
+
+### 2. Colocar el proyecto
 
 Ubicar la carpeta en:
+
 ```
 C:\xampp\htdocs\Hidalgo
 ```
 
-**### 3. Crear base de datos**
+---
 
-Entrar a:
-http://localhost/phpmyadmin
+### 3. Crear base de datos
 
-Crear base de datos:
+Acceder a:
 
 ```
+http://localhost/phpmyadmin
+```
+
+Ejecutar:
+
+```sql
 CREATE DATABASE HidalgoSecreto;
 ```
 
-**### 4. Configurar conexión**
+---
 
-Crear el archivo para la conexión de la base de datos:
+### 4. Configurar conexión
+
+Crear el archivo:
+
 ```
 includes/conexionBase.php
 ```
-```
+
+```php
 <?php
 $conn = new mysqli("localhost", "root", "", "HidalgoSecreto");
 
@@ -106,90 +141,146 @@ if ($conn->connect_error) {
 ?>
 ```
 
-**### 5. Ejecutar el proyecto**
+---
+
+### 5. Ejecutar el proyecto
 
 Abrir en navegador:
+
+```
 http://localhost/Hidalgo/public/index.php
+```
 
-**## Características del sistema**
--	Arquitectura modular mediante includes 
--	Separación de lógica y vistas 
--	Contenido dinámico desde base de datos 
--	Sistema escalable tipo CMS turístico 
--	Navegación mediante parámetros GET
+---
 
-**## Capturas del sistema**
+## ⚡ Características del sistema
+
+* Arquitectura modular mediante `includes`
+* Separación de lógica y presentación
+* Contenido dinámico desde base de datos
+* Estructura escalable tipo CMS
+* Navegación mediante parámetros GET
+
+---
+
+## 🖼️ Capturas del sistema
 
 ### Página principal
-*WEB*
+
+**WEB**
 ![Home](screenshots/home.png)
-*MOVIL*
+
+**MÓVIL**
 ![Home](screenshots/homeMovil.png)
 
-### Destinos
-*WEB*
-![Destinos](screenshots/destinos.png)
-*MOVIL*
+---
 
+### Destinos
+
+**WEB**
+![Destinos](screenshots/destinos.png)
+
+**MÓVIL**
 ![Destinos](screenshots/destinosMovil.png)
 
-### Detalle
-*WEB*
-![Detalle](screenshots/detalle.png)
-*MOVIL*
+---
 
+### Detalle
+
+**WEB**
+![Detalle](screenshots/detalle.png)
+
+**MÓVIL**
 ![Detalle](screenshots/detalleMovil.png)
 
+---
+
 ### Recomendaciones
-*WEB*
+
+**WEB**
 ![Recomendaciones](screenshots/recomendaciones.png)
-*MOVIL*
+
+**MÓVIL**
 ![Recomendaciones](screenshots/recomendacionesMovil.png)
 
-### Galeria
-*WEB*
-![Galeria](screenshots/galeria.png)
-*MOVIL*
+---
 
+### Galería
+
+**WEB**
+![Galeria](screenshots/galeria.png)
+
+**MÓVIL**
 ![Galeria](screenshots/galeriaMovil.png)
 
-### Experiencias
-*WEB*
-![Experiencias](screenshots/experiencias.png)
-*MOVIL*
+---
 
+### Experiencias
+
+**WEB**
+![Experiencias](screenshots/experiencias.png)
+
+**MÓVIL**
 ![Experiencias](screenshots/experienciasMovil.png)
 
+---
+
 ### Actividades
-*WEB*
+
+**WEB**
 ![Actividades](screenshots/actividades.png)
-*MOVIL*
+
+**MÓVIL**
 ![Actividades](screenshots/actividadesMovil.png)
 
-### Hospedaje
-*WEB*
-![Hospedaje](screenshots/hospedaje.png)
-*MOVIL*
+---
 
+### Hospedaje
+
+**WEB**
+![Hospedaje](screenshots/hospedaje.png)
+
+**MÓVIL**
 ![Hospedaje](screenshots/hospedajeMovil.png)
 
-### Leyendas
-*WEB*
-![Leyendas](screenshots/leyendas.png)
-*MOVIL*
+---
 
+### Leyendas
+
+**WEB**
+![Leyendas](screenshots/leyendas.png)
+
+**MÓVIL**
 ![Leyendas](screenshots/leyendasMovil.png)
 
-### Leyendas Detalle
-*WEB*
-![LeyendasDetalle](screenshots/leyendasDetalle.png)
-*MOVIL*
+---
 
+### Detalle de leyendas
+
+**WEB**
+![LeyendasDetalle](screenshots/leyendasDetalle.png)
+
+**MÓVIL**
 ![LeyendasDetalle](screenshots/leyendasDetalleMovil.png)
 
+---
+
 ### Contacto
-*WEB*
+
+**WEB**
 ![Contacto](screenshots/contacto.png)
-*MOVIL*
+
+**MÓVIL**
 
 ![Contacto](screenshots/contactoMovil.png)
+
+---
+
+## 👩‍💻 Autor
+
+Jennyfer Guadalupe Montes Romero
+Desarrolladora Junior Fullstack
+
+📫 Contacto: [jennyfermontes049@gmail.com](mailto:jennyfermontes049@gmail.com)
+
+---
