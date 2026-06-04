@@ -168,9 +168,11 @@ http://localhost/Hidalgo/public/index.php
 ### Página principal
 
 **WEB**
+
 ![Home](screenshots/home.png)
 
 **MÓVIL**
+
 ![Home](screenshots/homeMovil.png)
 
 ---
@@ -178,9 +180,11 @@ http://localhost/Hidalgo/public/index.php
 ### Destinos
 
 **WEB**
+
 ![Destinos](screenshots/destinos.png)
 
 **MÓVIL**
+
 ![Destinos](screenshots/destinosMovil.png)
 
 ---
@@ -188,9 +192,11 @@ http://localhost/Hidalgo/public/index.php
 ### Detalle
 
 **WEB**
+
 ![Detalle](screenshots/detalle.png)
 
 **MÓVIL**
+
 ![Detalle](screenshots/detalleMovil.png)
 
 ---
@@ -198,9 +204,11 @@ http://localhost/Hidalgo/public/index.php
 ### Recomendaciones
 
 **WEB**
+
 ![Recomendaciones](screenshots/recomendaciones.png)
 
 **MÓVIL**
+
 ![Recomendaciones](screenshots/recomendacionesMovil.png)
 
 ---
@@ -208,9 +216,11 @@ http://localhost/Hidalgo/public/index.php
 ### Galería
 
 **WEB**
+
 ![Galeria](screenshots/galeria.png)
 
 **MÓVIL**
+
 ![Galeria](screenshots/galeriaMovil.png)
 
 ---
@@ -218,9 +228,11 @@ http://localhost/Hidalgo/public/index.php
 ### Experiencias
 
 **WEB**
+
 ![Experiencias](screenshots/experiencias.png)
 
 **MÓVIL**
+
 ![Experiencias](screenshots/experienciasMovil.png)
 
 ---
@@ -228,9 +240,11 @@ http://localhost/Hidalgo/public/index.php
 ### Actividades
 
 **WEB**
+
 ![Actividades](screenshots/actividades.png)
 
 **MÓVIL**
+
 ![Actividades](screenshots/actividadesMovil.png)
 
 ---
@@ -238,9 +252,11 @@ http://localhost/Hidalgo/public/index.php
 ### Hospedaje
 
 **WEB**
+
 ![Hospedaje](screenshots/hospedaje.png)
 
 **MÓVIL**
+
 ![Hospedaje](screenshots/hospedajeMovil.png)
 
 ---
@@ -248,9 +264,11 @@ http://localhost/Hidalgo/public/index.php
 ### Leyendas
 
 **WEB**
+
 ![Leyendas](screenshots/leyendas.png)
 
 **MÓVIL**
+
 ![Leyendas](screenshots/leyendasMovil.png)
 
 ---
@@ -258,9 +276,11 @@ http://localhost/Hidalgo/public/index.php
 ### Detalle de leyendas
 
 **WEB**
+
 ![LeyendasDetalle](screenshots/leyendasDetalle.png)
 
 **MÓVIL**
+
 ![LeyendasDetalle](screenshots/leyendasDetalleMovil.png)
 
 ---
@@ -268,6 +288,7 @@ http://localhost/Hidalgo/public/index.php
 ### Contacto
 
 **WEB**
+
 ![Contacto](screenshots/contacto.png)
 
 **MÓVIL**
